@@ -2,6 +2,12 @@ body{
       font-family:"Roboto" sans-serif;
 
 }
+.list{
+      list-style: none;
+}
+.link{
+      text-decoration: none;
+}
 .logo-web{
             font-weight: 800;
             font-size: 18px;
@@ -46,8 +52,7 @@ body{
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .btn-name{
-      font-family: 'Roboto' sans-serif;
-            font-style: normal;
+      font-family: inherit;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -123,8 +128,7 @@ body{
             border-radius: 4px;
 }
 .btn-all-name{
-      font-family: 'Roboto' sans-serif;
-            font-style: normal;
+      font-family: inherit;
       font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -137,8 +141,7 @@ body{
             border-radius: 4px;
 }
 .btn-filters-name{
-      font-family: 'Roboto'sans-serif;
-            font-style: normal;
+      font-family: inherit;
       font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
