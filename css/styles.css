@@ -29,7 +29,8 @@ body{
 /**-----------------HEADER-------------*/
 
 .header{
-      font-style: normal
+      font-style: normal;
+      font-family: "Raleway", sans-serif;
 }
 
 .logo-web{
@@ -93,6 +94,10 @@ body{
                   letter-spacing: 0.04em;
                   color: #FFFFFF;
                   cursor: pointer;
+}
+
+.btn-hero:is(:hover,:focus){
+      background-color:#404BBF
 }
 
 .visually-hidden {
