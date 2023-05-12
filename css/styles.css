@@ -26,6 +26,12 @@ body{
       text-decoration: none;
 }
 
+/**-----------------HEADER-------------*/
+
+.header{
+      font-style: normal
+}
+
 .logo-web{
             font-weight: 800;
             font-size: 18px;
@@ -34,7 +40,6 @@ body{
             text-transform: uppercase;
             color: #4D5AE5;
             text-decoration: none;
-            font-style: normal;
 }
 
 .logo-studio{
@@ -43,7 +48,6 @@ body{
                   line-height: 1.17;
                   letter-spacing: 0.03em;
                   text-decoration: none;
-                  font-style: normal;
                   color: var(--first-title-color);
 }
 
@@ -52,18 +56,14 @@ body{
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            font-style: normal;
             color: var(--first-title-color);
 }
-              
-/**-----------------HEADER-------------*/
-
+             
 .header-link:is(:hover,:focus){
       color: #404bbf;
 }
 
 .header-address-link{
-            font-style: normal;
             color: var(--second-tittle-color);
 
 }
