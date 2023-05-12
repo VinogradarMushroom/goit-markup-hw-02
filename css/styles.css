@@ -30,16 +30,18 @@ body{
 .logo-web{
             font-weight: 800;
             font-size: 18px;
-            line-height: 1.16; 
+            line-height: 1.17; 
             letter-spacing: 0.03em;
             color: #4D5AE5;
+            text-decoration: none;
 }
 
 .logo-studio{
             font-weight: 800;
                   font-size: 18px;
-                  line-height: 1.16;
+                  line-height: 1.17;
                   letter-spacing: 0.03em;
+                  text-decoration: none;
                   color: var(--first-title-color);
 }
 
@@ -54,10 +56,11 @@ body{
 /**-----------------HEADER-------------*/
 
 .header-link:is(:hover,:focus){
-      color: aquamarine;
+      color: #404bbf;
 }
 
 .header-address-link{
+            font-style: normal;
             color: var(--second-tittle-color);
 
 }
@@ -149,6 +152,7 @@ body{
             font-size: 18px;
             line-height: 1.17;
             letter-spacing: 0.03em;
+            text-decoration: none;
             color: #F4F4FD;
 }
 
