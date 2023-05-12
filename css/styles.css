@@ -66,12 +66,15 @@ body{
       color: #404bbf;
 }
 
-.header-address-link{
-            color: var(--second-tittle-color);
+.header-address{
+            font-style: normal;
+
 }
 
-.header-address-list{
-      font-style: normal;
+.header-address-link{
+            color: var(--second-tittle-color);
+            font-style: normal;
+
 }
 
 /**-----------------HERO-------------*/
