@@ -62,7 +62,7 @@ body{
 /**-----------------HERO-------------*/
 
 .hero{
-      background: var(--title-color);
+      background: var(--first-title-color);
 }
 
 .h1{
