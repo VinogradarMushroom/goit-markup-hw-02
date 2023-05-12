@@ -8,6 +8,14 @@ body{
 
 }
 
+.p-text{ 
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+
+}
+
 .list{
       list-style: none;
 }
@@ -47,10 +55,6 @@ body{
 }
 
 .header-address-link{
-      font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
             color: var(--second-tittle-color);
 
 }
@@ -93,11 +97,7 @@ body{
       }
 
 .about-item-name{
-      font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: var(--second-tittle-color);
+      color: var(--second-tittle-color);
 }
 
 .images-head{
@@ -132,10 +132,7 @@ body{
 }
 
 .team-about{
-      font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            color: var(--second-tittle-color);
+      color: var(--second-tittle-color);
 }
 
 /**-----------------FOOTER-------------*/
@@ -153,11 +150,7 @@ body{
 }
 
 .footer-about{
-      font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #F4F4FD;
+      color: #F4F4FD;
 }
 
 /**-----------------PORTFOLIO-------------*/
@@ -208,9 +201,5 @@ background: #FFFFFF;
       }
 
 .portfolio-text{
-      font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: var(--second-tittle-color);
+      color: var(--second-tittle-color);
 }
