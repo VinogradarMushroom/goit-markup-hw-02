@@ -1,13 +1,21 @@
+:root{
+      --first-title-color: #2E2F42;
+      --second-tittle-color: #434455;
+}
+
 body{
       font-family:"Roboto" sans-serif;
 
 }
+
 .list{
       list-style: none;
 }
+
 .link{
       text-decoration: none;
 }
+
 .logo-web{
             font-weight: 800;
             font-size: 18px;
@@ -15,19 +23,21 @@ body{
             letter-spacing: 0.03em;
             color: #4D5AE5;
 }
+
 .logo-studio{
             font-weight: 800;
                   font-size: 18px;
                   line-height: 1.16;
                   letter-spacing: 0.03em;
-                  color: #2E2F42;
+                  color: var(--first-title-color);
 }
+
 .header-link{
       font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            color: #2E2F42;
+            color: var(--first-title-color);
 }
               
 /**-----------------HEADER-------------*/
@@ -35,20 +45,22 @@ body{
 .header-link:is(:hover,:focus){
       color: aquamarine;
 }
+
 .header-address-link{
       font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            color: #434455;
+            color: var(--second-tittle-color);
 
 }
 
 /**-----------------HERO-------------*/
 
 .hero{
-      background: #2E2F42;
+      background: var(--title-color);
 }
+
 .h1{
       font-weight: 700;
             font-size: 56px;
@@ -56,10 +68,12 @@ body{
             letter-spacing: 0.02em;
             color: #FFFFFF;
 }
+
 .btn-hero{
       background: #4D5AE5;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
 .btn-name{
       font-family: inherit;
             font-weight: 500;
@@ -69,58 +83,67 @@ body{
             color: #FFFFFF;
             cursor: pointer;
 }
+
 .about-name{
       font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
-            color: #2E2F42;
-}
+            color: var(--first-title-color);
+      }
+
 .about-item-name{
       font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            color: #434455;
+            color: var(--second-tittle-color);
 }
+
 .images-head{
       font-weight: 700;
             font-size: 36px;
             line-height: 1.11;
             letter-spacing: 0.02em;
-            color: #2E2F42;
+            color: var(--first-title-color);
 }
+
 .images-item{
       background: url(2368.jpg);
             border: 1px solid #E7E9FC;
 }
+
 .team{
       background: #F4F4FD;
 }
+
 .team-group{
       font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
-            color: #2E2F42;
-}
+            color: var(--first-title-color);
+      }
+
 .team-item{
       background: #FFFFFF;
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
             border-radius: 0px 0px 4px 4px;
 }
+
 .team-about{
       font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
-            color: #434455;
+            color: var(--second-tittle-color);
 }
 
 /**-----------------FOOTER-------------*/
 
 .footer{
-      background: #2E2F42;
+      background: var(--first-title-color);
 }
+
 .footer-logo-studio{
       font-weight: 800;
             font-size: 18px;
@@ -128,6 +151,7 @@ body{
             letter-spacing: 0.03em;
             color: #F4F4FD;
 }
+
 .footer-about{
       font-weight: 400;
             font-size: 16px;
@@ -143,6 +167,7 @@ body{
             box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
             border-radius: 4px;
 }
+
 .btn-all-name{
       font-family: inherit;
       font-weight: 500;
@@ -152,11 +177,13 @@ body{
             color: #FFFFFF;
             cursor: pointer;
 }
+
 .btn-filters{
       background: #F4F4FD;
             border: 1px solid #E7E9FC;
             border-radius: 4px;
 }
+
 .btn-filters-name{
       font-family: inherit;
       font-weight: 500;
@@ -166,21 +193,24 @@ body{
             color: #4D5AE5;
             cursor: pointer;
 }
+
 .portfolio-item{
 background: #FFFFFF;
       border: 1px solid #E7E9FC;
 }
+
 .portfolio-name{
       font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
-            color: #2E2F42;
-}
+            color: var(--first-title-color);
+      }
+
 .portfolio-text{
       font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            color: #434455;
+            color: var(--second-tittle-color);
 }
