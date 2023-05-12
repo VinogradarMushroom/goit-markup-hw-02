@@ -83,7 +83,6 @@ body{
 .btn-hero{
       background: #404BBF;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      cursor: pointer;
 }
 
 .btn-name{
@@ -96,6 +95,19 @@ body{
             cursor: pointer;
 }
 
+.visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+}
 .about-name{
       font-weight: 500;
             font-size: 20px;
