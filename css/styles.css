@@ -66,6 +66,10 @@ body{
       color: #404bbf;
 }
 
+.header-adress{
+      font-style: normal
+}
+
 .header-address-link{
             color: var(--second-tittle-color);
 
