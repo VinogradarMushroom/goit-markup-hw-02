@@ -32,6 +32,7 @@ body{
             font-size: 18px;
             line-height: 1.17; 
             letter-spacing: 0.03em;
+            text-transform: uppercase;
             color: #4D5AE5;
             text-decoration: none;
 }
@@ -139,6 +140,16 @@ body{
       background: #F4F4FD;
 }
 
+.team-name{
+      font-weight: 700;
+            font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: var(--first-title-color);
+}
+
 .team-group{
       font-weight: 500;
             font-size: 20px;
@@ -169,6 +180,7 @@ body{
             line-height: 1.17;
             letter-spacing: 0.03em;
             text-decoration: none;
+            text-transform: uppercase;
             color: #F4F4FD;
 }
 
