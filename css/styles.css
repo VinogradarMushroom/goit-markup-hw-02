@@ -191,7 +191,7 @@ body{
 /**-----------------PORTFOLIO-------------*/
 
 .btn-all{
-      background: #404BBF;
+      background-color: #404BBF;
             box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
             border-radius: 4px;
                   font-family: inherit;
@@ -204,7 +204,7 @@ body{
 }
 
 .btn-filters{
-      background: #F4F4FD;
+      background-color: #F4F4FD;
             border: 1px solid #E7E9FC;
             border-radius: 4px;
                   font-family: inherit;
