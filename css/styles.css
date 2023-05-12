@@ -1,8 +1,8 @@
 :root{
       --first-title-color: #2E2F42;
       --second-tittle-color: #434455;
-      --portfolio-color: #4d5ae5;
-      --portfolio-background: #F4F4FD;
+      --accent-color: #404bbf;      
+      --primary-white-color: #FFFFFF;
 }
 
 body{
@@ -198,24 +198,26 @@ body{
 
 /**-----------------PORTFOLIO-------------*/
 
-.btn{
-      background-color: var(--portfolio-background);
-      color: var(--portfolio-color);
-      background-color: #404BBF;
-            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-            border-radius: 4px;
-                  font-family: inherit;
-                  font-weight: 500;
-                  font-size: 16px;
-                  line-height: 1.5;
-                  letter-spacing: 0.04em;
-                  color: #FFFFFF;
-                  cursor: pointer;
-}
-
-.btn:hover,.btn:focus {
-  background-color: var(--portfolio-background);
-  color: var(--portfolio-color);
+.nav-buttom {
+      background-color: #f4f4fd;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #4d5ae5;
+      cursor: pointer;
+    }
+    
+    .nav-buttom:hover,
+    .nav-buttom:focus {
+      background-color: var(--accent-color);
+      color: var(--primary-white-color);
+    }
 }
 
 .portfolio-item{
