@@ -68,9 +68,10 @@ body{
 
 .header-address-link{
             color: var(--second-tittle-color);
-            font-style: normal;
+}
 
-
+.header-address-list{
+      font-style: normal;
 }
 
 /**-----------------HERO-------------*/
