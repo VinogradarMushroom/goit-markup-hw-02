@@ -176,6 +176,7 @@ body{
 
 .footer{
       font-family: "Raleway", sans-serif;
+      font-style: normal;
       background: var(--first-title-color);
 }
 
