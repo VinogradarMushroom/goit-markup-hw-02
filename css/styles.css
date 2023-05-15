@@ -9,7 +9,7 @@ body{
       font-family: 'Roboto', sans-serif;     
       color: #434455;
       background-color: #FFFFFF;
-
+      font-style: normal;
 }
 
 .p-text{ 
@@ -30,14 +30,12 @@ body{
 /**-----------------HEADER-------------*/
 
 .header{
-      font-style: normal;
       font-family: "Raleway", sans-serif;
 }
 
 .header-list{
       font-weight: 500;
       font-family: 'Roboto', sans-serif;
-      font-style: normal;
 
 }
 
@@ -62,7 +60,6 @@ body{
 
 .header-link{
             font-family: 'Roboto', sans-serif;
-            font-style: normal;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -75,7 +72,6 @@ body{
 }
 
 .header-address{
-            font-style: normal;
             font-family: 'Roboto', sans-serif;
 }
 
@@ -85,7 +81,6 @@ body{
 
 .header-address-link{
             color: var(--second-tittle-color);
-            font-style: normal;
 
 }
 
@@ -120,7 +115,6 @@ body{
 
 .visually-hidden {
       margin: -1px;
-
       white-space: nowrap;
       clip-path: inset(100%);
       clip: rect(0 0 0 0);
@@ -137,7 +131,6 @@ body{
 .about-item-name{
       color: var(--second-tittle-color);
       font-family: 'Roboto', sans-serif;
-      font-style: normal;
 }
 
 .images-head{
@@ -181,14 +174,12 @@ body{
 .team-about{
       color: var(--second-tittle-color);
       font-family: 'Roboto', sans-serif;
-      font-style: normal;
 }
 
 /**-----------------FOOTER-------------*/
 
 .footer{
       font-family: "Raleway", sans-serif;
-      font-style: normal;
       background: var(--first-title-color);
 }
 
@@ -205,7 +196,6 @@ body{
 .footer-about{
       color: #F4F4FD;
       font-family: 'Roboto', sans-serif;
-      font-style: normal;
 }
 
 /**-----------------PORTFOLIO-------------*/
@@ -213,7 +203,6 @@ body{
 .btn {
       background-color: #f4f4fd;
       font-family: 'Roboto', sans-serif;
-      font-style: normal;
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
@@ -235,7 +224,6 @@ background: #FFFFFF;
 
 .portfolio-name{
             font-family: 'Roboto', sans-serif;
-            font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
@@ -246,5 +234,4 @@ background: #FFFFFF;
 .portfolio-text{
       color: var(--second-tittle-color);
       font-family: 'Roboto', sans-serif;
-      font-style: normal;
 }
