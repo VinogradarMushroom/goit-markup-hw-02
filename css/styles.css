@@ -96,7 +96,6 @@ body{
 
 .btn-hero{
       background-color: #4D5AE5;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             font-family: inherit;
                   font-weight: 500;
                   font-size: 16px;
@@ -111,12 +110,7 @@ body{
 }
 
 .visually-hidden {
-      position: absolute;
-      width: 1px;
-      height: 1px;
       margin: -1px;
-      border: 0;
-      padding: 0;
 
       white-space: nowrap;
       clip-path: inset(100%);
@@ -146,7 +140,6 @@ body{
 
 .images-item{
       background: url(2368.jpg);
-            border: 1px solid #E7E9FC;
 }
 
 .team{
@@ -172,8 +165,6 @@ body{
 
 .team-item{
       background: #FFFFFF;
-            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-            border-radius: 0px 0px 4px 4px;
 }
 
 .team-about{
@@ -211,8 +202,6 @@ body{
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
-      display: flex;
-      align-items: center;
       text-align: center;
       letter-spacing: 0.04em;
       color: #4d5ae5;
@@ -227,7 +216,6 @@ body{
 
 .portfolio-item{
 background: #FFFFFF;
-      border: 1px solid #E7E9FC;
 }
 
 .portfolio-name{
